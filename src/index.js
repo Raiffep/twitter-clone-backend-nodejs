@@ -5,7 +5,7 @@ const server = require ('http').Server(app);
 const io = require('socket.io')(server);
 const cors = require('cors');
 
-mongoose.connect("mongodb://xxxxx:xxxxx@ds141043.mlab.com:41043/goweekraiffe", {
+mongoose.connect("mongodb://user:password@id.mlab.com:port/database", {
     useNewUrlParser: true
 });
 
